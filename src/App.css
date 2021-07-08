@@ -36,8 +36,21 @@ header img {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 10px;
 }
-
+.search {
+  height: 100px;
+}
+input[type='text'] {
+  display: block;
+  padding: 10px;
+  margin: auto;
+  font-size: 20px;
+  border: 0;
+  border-radius: 5px;
+  width: 60%;
+  outline: none;
+}
 .cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
