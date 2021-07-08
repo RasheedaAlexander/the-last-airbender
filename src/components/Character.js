@@ -1,4 +1,6 @@
 import React from 'react'
+import CharacterCards from './CharacterCards'
+
 
 const Character = ({ items, isLoading }) => {
     return isLoading ? (
@@ -6,7 +8,7 @@ const Character = ({ items, isLoading }) => {
     ) : (
     <section className="cards">
         {items.map((item) => (
-            <h1>{item.name}</h1>
+            <CharacterCards key={item._id} item={item}></CharacterCards>
         ))}
     </section>
     )

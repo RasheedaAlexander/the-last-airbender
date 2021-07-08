@@ -1,6 +1,6 @@
-import React, { useState , useEffect} from 'react';
-import axios from "axios";
-import Header from './components/Header';
+import React, { useState , useEffect} from 'react'
+import axios from "axios"
+import Header from './components/Header'
 import Character from './components/Character'
 import './App.css';
 // import { assertExpressionStatement } from '@babel/types';
